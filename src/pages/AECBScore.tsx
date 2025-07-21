@@ -35,7 +35,7 @@ export const AECBScore = () => {
 
 
   const handleContinue = () => {
-    navigate("/loan-application");
+    navigate("/loan-application/vat-returns");
   };
 
   const handleAuthorize = (partner: Partner) => {

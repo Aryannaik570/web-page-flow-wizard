@@ -19,10 +19,6 @@ export const ProcessingStep = () => {
     navigate("/loan-application/loan-offer");
   };
 
-  const handlePrev = () => {
-    navigate("/loan-application/vat-returns");
-  };
-
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
@@ -30,7 +26,7 @@ export const ProcessingStep = () => {
         <h1 className="text-2xl font-semibold mb-8">Your loan application</h1>
         <ProgressIndicator steps={steps} currentStep={5} />
         <div className="mt-8">
-          <ProcessingStepComponent onNext={handleNext} onPrev={handlePrev} />
+          <ProcessingStepComponent onNext={handleNext} />
         </div>
       </div>
       <PageFooter />

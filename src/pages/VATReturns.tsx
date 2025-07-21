@@ -3,6 +3,8 @@ import { Header } from "@/components/Header";
 import { ProgressIndicator } from "@/components/ProgressIndicator";
 import { PageFooter } from "@/components/PageFooter";
 import { VATReturns as VATReturnsStep } from "@/components/steps/VATReturns";
+import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export const VATReturns = () => {
   const navigate = useNavigate();
